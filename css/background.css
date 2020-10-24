@@ -1,0 +1,49 @@
+.signup {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 20%;
+    height: 12rem;
+}
+.signup a {
+    margin-bottom: 4rem;
+}
+.signup form {
+    padding: 5%;
+}
+@keyframes blurInLeft {
+    from {
+        transform: translateX(100%);
+        filter: blur(20px);
+        opacity: 0;
+    }
+}
+input {
+    animation: blurInLeft 2s;
+    padding: 5%;
+    opacity: 0.655;
+    border: none;
+    border-bottom: solid black;
+    background-color: rgba(160, 160, 160, 0.4);
+}
+input:focus {
+    animation: blurInLeft 2s;
+    padding: 5%;
+    opacity: 0.655;
+    border: none;
+    outline: none;
+    border-bottom: solid black;
+    background-color: rgb(226, 226, 226);
+}
+input[type=submit] {
+    border: none;
+    background-color: rgb(9, 176, 231);
+}
+#email {
+    margin-bottom: 1rem;
+}
+#password {
+    margin-bottom: 1rem;
+}
+.spacer-s {
+    height: 8rem;
+}
